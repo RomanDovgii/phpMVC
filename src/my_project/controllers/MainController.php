@@ -3,6 +3,7 @@
 
     class MainController {
         public function main() {
+            include __DIR__ . '\..\utils\const.php';
             include __DIR__ . '\..\..\templates\main.php';
         }
 
